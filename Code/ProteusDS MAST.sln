@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProteusDS MAST", "ProteusDS Mast\ProteusDS MAST.csproj", "{CAB1766D-1D1C-4885-B00B-3419B93C3FCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDSLibrary", "..\..\PDSLibrary\Code\PDSLibrary.csproj", "{32D33C40-38B4-4061-BFFF-EA1722B63D02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDSLibrary", "PDSLibrary\Code\PDSLibrary.csproj", "{32D33C40-38B4-4061-BFFF-EA1722B63D02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDP_Service", "..\..\UDP_Service\Code\UDP_Service.csproj", "{D9BC05C3-13DC-49C0-B1BD-9A32C2F77B8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDP_Service", "UDP_Service\Code\UDP_Service.csproj", "{D9BC05C3-13DC-49C0-B1BD-9A32C2F77B8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
