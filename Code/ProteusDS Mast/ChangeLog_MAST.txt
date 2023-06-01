@@ -1,0 +1,14 @@
+﻿ProteusDS MAST - ProteusDS Management Assist Simulation Tool
+-------------------------------------
+
+v2.17.0 (26 June 2015)
+- No changes; new version intended to keep version parity with other ProteusDS 2015 components
+
+v2.15.6 (19 May 2015)
+- No changes; new version intended to keep version parity with other ProteusDS 2015 components
+
+v2.15.5 (25 March 2015)
+- Bug fixes
+
+v2.15.4 (17 March 2015)
+- Initial release
