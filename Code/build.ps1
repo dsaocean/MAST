@@ -18,17 +18,14 @@ param (
     [scriptblock] $RevertBuildDate,
 
     [Parameter(Position = 6, Mandatory = $true)]
-    [string] $InstallationFolder,
-
-    [Parameter(Position = 7, Mandatory = $true)]
-    [string] $SolutionPath
+    [string] $InstallationFolder
 )
 
-$ProjectFolder = "$SolutionPath/ProteusDS MAST"
+$ProjectFolder = "ProteusDS MAST"
 $SolutionFile = "ProteusDS MAST.sln"
 
 UpdateAssemblyVersion "$ProjectFolder/Properties/AssemblyInfo.cs" $Version
-msbuild "$SolutionPath/$SolutionFile" -t:restore -p:RestorePackagesConfig=true
-msbuild "$SolutionPath/$SolutionFile" /p:Configuration=Release /p:Platform=$Platform
+msbuild $SolutionFile -t:restore -p:RestorePackagesConfig=true
+msbuild $SolutionFile /p:Configuration=Release /p:Platform=$Platform
 New-Item -Path "$InstallationFolder\ProteusDS MAST" -ItemType Directory
 Copy-Item "$SolutionPath\bin\Release\$Platform\*" -Destination "$InstallationFolder\ProteusDS MAST" -Recurse
