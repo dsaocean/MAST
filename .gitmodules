@@ -1,9 +1,0 @@
-[submodule "Code/PDSLibrary"]
-	path = Code/PDSLibrary
-	url = https://github.com/dsaocean/PDSLibrary.git
-[submodule "Code/UDP_Service"]
-	path = Code/UDP_Service
-	url = https://github.com/dsaocean/UDP_Service.git
-[submodule "Code/UI_DLLs"]
-	path = Code/UI_DLLs
-	url = https://github.com/dsaocean/UI_DLLs.git

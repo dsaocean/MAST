@@ -170,11 +170,11 @@
     <Content Include="ChangeLog_MAST.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PDSLibrary\Code\PDSLibrary.csproj">
+    <ProjectReference Include="..\..\..\PDSLibrary\Code\PDSLibrary.csproj">
       <Project>{32d33c40-38b4-4061-bfff-ea1722b63d02}</Project>
       <Name>PDSLibrary</Name>
     </ProjectReference>
-    <ProjectReference Include="..\UDP_Service\Code\UDP_Service.csproj">
+    <ProjectReference Include="..\..\..\UDP_Service\Code\UDP_Service.csproj">
       <Project>{d9bc05c3-13dc-49c0-b1bd-9a32c2f77b8e}</Project>
       <Name>UDP_Service</Name>
     </ProjectReference>
